@@ -1,0 +1,31 @@
+from app.models.core import (
+    Achievement,
+    Assignment,
+    AssignmentComment,
+    Event,
+    EventParticipation,
+    EventSubjectLink,
+    GoogleCourse,
+    StudyGroup,
+    Subject,
+    Submission,
+    TeacherSubjectAccess,
+    User,
+    UserAchievement,
+)
+
+__all__ = [
+    "Achievement",
+    "Assignment",
+    "AssignmentComment",
+    "Event",
+    "EventParticipation",
+    "EventSubjectLink",
+    "GoogleCourse",
+    "StudyGroup",
+    "Subject",
+    "Submission",
+    "TeacherSubjectAccess",
+    "User",
+    "UserAchievement",
+]

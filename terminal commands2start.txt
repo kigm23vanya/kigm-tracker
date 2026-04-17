@@ -1,0 +1,7 @@
+1 term:
+uvicor app.main:app --reload --app-dir backend
+
+2 term:
+cd frontend
+npm install
+npm run dev
